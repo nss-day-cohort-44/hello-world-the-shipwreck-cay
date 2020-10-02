@@ -1,0 +1,24 @@
+nav {
+    background-color: #2e4057;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #f5efff;
+    border: 2px solid;
+    padding: 3px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #f5efff;
+    color: #2e4057; 
+}
+.current__link {
+    background-color: #f5efff;
+    color: #2e4057; 
+}
+.nav-bar {
+    list-style-type: none;
+}
