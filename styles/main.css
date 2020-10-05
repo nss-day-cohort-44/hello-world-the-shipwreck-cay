@@ -104,3 +104,12 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.list {
+	border: 4px double white;
+	padding-right: 15px;
+	margin-top: 200px;
+	width: 200px;
+	font-size: x-large;
+
+}
