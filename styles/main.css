@@ -71,3 +71,9 @@ body {
 	color: white;
 	text-shadow: 5px 5px black;
 }
+
+.contentContainer {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
