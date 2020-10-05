@@ -32,4 +32,19 @@ h1,h2,h3,h4,h5,h6 {
 
 body {
 	background: #F5EFFF;
+	margin: 0%;
+}
+
+.footer {
+	background: #2E4057;
+	margin-top: 100%;
+	width: 100%;
+	height: 50px;
+}
+
+.footLink {
+	color: white;
+	line-height: 2em;
+	text-align: center;
+	font-size: large;
 }
