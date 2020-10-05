@@ -22,11 +22,11 @@ h1,h2,h3,h4,h5,h6 {
 #headline {
 	background-image: url("https://cdn1.vectorstock.com/i/1000x1000/25/10/blurred-landscape-background-travel-concept-vector-4252510.jpg");
 	color: #e5d9f2;
-    margin: 0;
+    margin-top: 10%;
     text-align: center;
 	text-shadow: 3px 5px black;
 	height: 50px;
-	width: 65%;
+	width: 100%;
 
 }
 
@@ -37,7 +37,7 @@ body {
 
 .footer {
 	background: #2E4057;
-	margin-top: 100%;
+	margin-top: 50px;
 	width: 100%;
 	height: 50px;
 }
@@ -47,4 +47,20 @@ body {
 	line-height: 2em;
 	text-align: center;
 	font-size: large;
+	margin-top: 20%;
+}
+
+.aboutus {
+	border: 50px double #F5EFFF;
+	margin-top: 10%;
+	padding: 10em;
+	background: #2E4057;
+	color: white;
+}
+
+.aboutus h3 {
+	text-align: center;
+	font-size: xxx-large;
+	color: white;
+	text-shadow: 5px 5px black;
 }
