@@ -3,7 +3,10 @@ nav {
     display: flex;
     flex-wrap: wrap;
 }
-
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
 a {
     color: #f5efff;
     border: 2px solid;
