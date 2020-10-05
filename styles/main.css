@@ -19,3 +19,17 @@ h1,h2,h3,h4,h5,h6 {
   letter-spacing: 2px;
 }
 
+#headline {
+	background-image: url("https://cdn1.vectorstock.com/i/1000x1000/25/10/blurred-landscape-background-travel-concept-vector-4252510.jpg");
+	color: #e5d9f2;
+    margin: 0;
+    text-align: center;
+	text-shadow: 3px 5px black;
+	height: 50px;
+	width: 65%;
+
+}
+
+body {
+	background: #F5EFFF;
+}
