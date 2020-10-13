@@ -1,11 +1,17 @@
 const canadaCities = [
     { 
-        city1: "Calgary",
-        city2: "Montreal",
-        city3: "Toronto"
-    
+        name: "Calgary"
+    },
+
+    {
+        name: "Montreal"
+    },
+
+    {
+        name: "Toronto"
     }
 ]
+
 
     export const useCities = ( ) => {
         return canadaCities.slice ( )

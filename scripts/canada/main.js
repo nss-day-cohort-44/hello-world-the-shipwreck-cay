@@ -1,8 +1,7 @@
-import { CityList } from "/scripts/canada/cities/CityDataList.js"
-import {useCities} from "/scripts/canada/cities/CityDataProvider.js"
+import { CelebritiesList } from "./celebrities/CelebritiesDataList.js"
+import { CityList } from "./cities/CityDataList.js"
+import {LandmarksList} from "./landmarks/LandmarksDataList.js"
 
-const allTheCities = useCities()
-// console.log(allTheCities)
-
-CityList()
-    
+CityList()  
+LandmarksList()
+CelebritiesList()

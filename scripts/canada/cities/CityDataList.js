@@ -2,19 +2,27 @@
  *  CityDataList which renders individual city objects as HTML
  */
 
-import { useCities } from "./CityDataProvider.js"
+import {Cities} from "./city.js"
+import {useCities} from "./CityDataProvider.js"
 
 
 export const CityList = () => {
-    const contentElement = document.querySelector(".contentContainer")
+    const contentElement = document.querySelector(".list__cities")
     // console.log(contentElement)
     const cities = useCities()
 
+    let citiesHTMLRepresentations = ""
+    for (const city of cities) {
+
+    citiesHTMLRepresentations += Cities(city)
+    }
+
 
     //     // Add to the existing HTML in the content element
-    contentElement.innerHTML += `
-        <div class="cities_list_canada">
-            Canada!
-        </div>
+   contentElement.innerHTML += `
+        
+        <h3> Cities </h3>
+        ${citiesHTMLRepresentations}
+        
     `
 }
