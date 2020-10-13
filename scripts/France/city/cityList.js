@@ -6,7 +6,7 @@ export const listOfCities =()=> {
  const cityCollect =  useCities()
 
  let cityHTMLrepresentation =" "
- for (const places of useCities){
+ for (const places of cityCollect){
     cityHTMLrepresentation += City(places)
  }
  ContentElement.innerHTML +=

@@ -18,7 +18,7 @@ const cityCollections = [
         attraction3: "Musée de la Civilisation Gallo-Romaine"
     },]
      export const useCities = () => {
-        cityCollections.slice()
+         return cityCollections.slice()
      }
 
     
