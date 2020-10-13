@@ -1,8 +1,12 @@
 const landmarkCollection =[
     {
-        Landmark1: "Eiffel Tower",
-        Landmark2: "Notre Dame cathedral",
-        Landmark3: "River Garonne"
+        Landmark: "Eiffel Tower"
+    },
+    {
+        Landmark: "Notre Dame cathedral"
+    },
+    {
+        Landmark: "River Garonne"
     }
 ]
  

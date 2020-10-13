@@ -5,16 +5,15 @@ export const listOfCities =()=> {
  const ContentElement = document.querySelector(".list1")
  const cityCollect =  useCities()
 
- let cityHTMLrepresentation =" "
+ let cityHTMLrepresentation =" <h3>Cities</h3>"
  for (const places of cityCollect){
     cityHTMLrepresentation += City(places)
  }
  ContentElement.innerHTML +=
  `
- <div class="list1">
- <h3>Cities</h3>
  <ul class="lists">
-     <li class="cities_list">${cityHTMLrepresentation} </li>
-     </div>
+     ${cityHTMLrepresentation} 
+     </ul>
+    
  `
 }
