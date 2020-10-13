@@ -6,6 +6,7 @@ export const landmark =(landObj) => {
     <li class="landmarks_list">${landObj.Landmark1}</li>
     <li class="landmarks_list">${landObj.Landmark2}</li>
     <li class="landmarks_list">${landObj.Landmark3}</li>
+    
     </div>
     `
 }

@@ -1,4 +1,4 @@
-import {useLandmark} from './landmarkDataProvider'
+import {useLandmark} from './landmarkDataProvider.js'
 import {landmark} from './landmark.js'
 export const listOfLandmark = () => {
 const ContentElement = document.querySelector(".list2")
